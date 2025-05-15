@@ -29,4 +29,4 @@ This was another opportunity for me to get more comfortable with flex, positions
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/solutions/recipe-page---html-css-flex-F9lCNglEI7). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/solutions/social-links-profile-using-html-and-css-hi8awmGBrZ). It definitely helps to find new ways to code and find easier solutions!
