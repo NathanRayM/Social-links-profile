@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 14px;
+    font-family: Inter;
+}
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--Grey900);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 27.57rem;
+    height: 43.64rem;
+    background-color: var(--Grey800);
+    border-radius: 1rem;
+   
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27.57rem;
+    height: 12.5rem;
+}
+
+img{
+    width: 6.42rem;
+    height: 6.42rem;
+    border-radius: 50%;
+}
+.intro-container{
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.714rem;
+    
+}
+
+h1{
+   color: var(--White);
+   font-weight: 500;
+   font-size: 1.7rem;
+   letter-spacing: 0.5px;
+}
+h2{
+   color: var(--Green);
+   font-weight: 500;
+   font-size: 1rem;
+   padding-bottom: 1.5rem;
+   
+   
+}
+p{
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.social-links-container{
+    padding-top: 1.857rem;
+    display: grid;
+    grid-gap: 1.14rem;
+    width: 80%;
+  
+    
+}
+.social-link{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 3.21rem;
+   background-color: var(--Grey700);
+   border-radius: 0.714rem;
+   text-decoration: none;
+   color: var(--White);
+   font-weight: 600;
+}
+.social-link:hover{
+   background-color: var(--Green);
+   color: var(--Grey900);
+}
+.social-link:active{
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
+
+@media (max-width: 390px){
+
+  
+
+body{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+   
+
+.main-container{
+    max-width: 23.5rem;
+    max-height: 41.35rem;
+   
+}
+.image-container{
+    margin-top: -15px;
+}
+.social-links-container{
+width: 85%;
+}
+
+}
+
+
