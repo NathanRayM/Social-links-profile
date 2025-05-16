@@ -19,7 +19,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-width: 100vw; */
     min-height: 100vh;
     background-color: var(--Grey900);
 }
@@ -30,7 +29,6 @@ body{
     align-items: center;
     width: 100%;
     max-width: 27.57rem;
-    /* height: 43.64rem; */
     background-color: var(--Grey800);
     border-radius: 1rem;
     padding: 2.9rem 0 2.9rem 0;
@@ -42,8 +40,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    /* width: 27.57rem;
-    height: 12.5rem; */
 }
 
 img{
@@ -52,13 +48,11 @@ img{
     border-radius: 50%;
 }
 .intro-container{
-    /* margin-top: -22px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.714rem;
-    
 }
 
 h1{
@@ -93,7 +87,6 @@ ul{
    display: flex;
    justify-content: center;
    align-items: center;
-   /* height: 3.21rem; */
    padding: 1rem 0 1rem 0;
    background-color: var(--Grey700);
    border-radius: 0.714rem;
